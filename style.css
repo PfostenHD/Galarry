@@ -81,7 +81,7 @@ img{
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 967px) {
     .TopText{
         display: flex;
         width: 900px;
