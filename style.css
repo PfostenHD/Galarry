@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins&display=swap');
+
+h1{
+    font-size: 36px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+
+}
+h2{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.TopText{
+    margin-bottom: 2rem;
+}
+
+.TopText p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    max-width: 20rem;
+
+
+}
+
+.Persons{
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.imgWithSide{
+    display: flex;
+}
+img{
+    width: 138.719px
+    
+}
+.imgWithSide p{
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    margin: 0;
+}
+.Person p{
+    font-size: 10px;
+    font-weight: 400;
+}
+.Person h3{
+    font-size: 14px;
+}
+.Photo2, .Photo4, .Photo6{
+    margin-top: 2.5rem;
+}
+
+
+@media (min-width: 700px) {
+    .TopText{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Persons{
+        width: 600px;
+    }
+    img{
+        width: 200px;
+    
+    }
+    .Person p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .Person h3{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) {
+    .TopText{
+        display: flex;
+        width: 900px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .Persons{
+        width: 1000px;
+    }
+    img{
+    width: 261px;
+    
+    }
+    .UnderText{
+        margin-right: 2rem;
+    }
+    .Photo4, .Photo6{
+        margin-top: null;
+    }
+    .Photo5{
+        margin-top: 5rem;
+    }
+}
